@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Rialtos Wide';
+    src: url('RialtosWide-Bold.woff2') format('woff2'),
+        url('RialtosWide-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rialtos Wide';
+    src: url('RialtosWide-Black.woff2') format('woff2'),
+        url('RialtosWide-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rialtos Wide';
+    src: url('RialtosWide-Regular.woff2') format('woff2'),
+        url('RialtosWide-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rialtos Wide';
+    src: url('RialtosWide-Medium.woff2') format('woff2'),
+        url('RialtosWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

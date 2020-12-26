@@ -1,0 +1,373 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <clipPath id="a">
+      <path fill="#7c7c7c" d="M0 0h2000v2000H0z" data-name="Rectangle 3"/>
+    </clipPath>
+    <clipPath id="b">
+      <path fill="none" d="M0 0h2000v2000H0z" data-name="Rectangle 2"/>
+    </clipPath>
+    <clipPath id="c">
+      <path fill="none" d="M0 0h1877.957v1877.971H0z" data-name="Rectangle 1"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 8">
+    <g clip-path="url(#a)" data-name="Group 6">
+      <g data-name="Group 5">
+        <g clip-path="url(#b)" data-name="Group 4">
+          <path fill="#fff" d="M1000 0C447.715 0 0 447.715 0 1000s447.715 1000 1000 1000 1000-447.715 1000-1000S1552.285 0 1000 0m0 1256.157c-141.47 0-256.156-114.685-256.156-256.156S858.528 743.843 1000 743.843 1256.157 858.528 1256.157 1000 1141.472 1256.157 1000 1256.157" data-name="Path 1"/>
+          <g data-name="Group 3">
+            <g data-name="Group 2" opacity=".1">
+              <g fill="#1a1818" clip-path="url(#c)" data-name="Group 1" font-family="RialtosWide-Black, Rialtos Wide" font-weight="800" transform="translate(61.008 61.013)">
+                <text font-size="40" transform="rotate(-170.778 478.482 884.644)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text font-size="37" transform="rotate(-167.382 478.583 872.332)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text font-size="40" transform="rotate(-163.956 480.008 856.92)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-160.464 480.762 842.557)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="scale(-1) rotate(22.28 4274.85 -2403.658)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="scale(-1) rotate(24.95 3704.538 -2176.264)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-151.651 481.605 806.901)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="scale(-1) rotate(31.75 2782.046 -1699.406)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-144.786 483.646 775.636)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-142.089 474.008 772.979)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="scale(-1) rotate(40.58 2030.68 -1308.734)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-136.05 483.718 737.077)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-132.684 485.226 719.745)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-129.2 485.983 702.84)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="scale(-1) rotate(53.46 1386.484 -942.21)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-123.865 486.368 675.66)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-120.489 485.77 659.208)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="scale(-1) rotate(62.92 1045.706 -797.816)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-113.595 488.75 619.986)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-110.876 475.487 611.526)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-108.175 490.079 587.905)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-104.77 489.526 567.879)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-101.346 492.29 544.481)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-97.865 493.293 520.535)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-95.171 477.426 506.976)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-92.511 494.41 480.611)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-89.071 494.044 454.931)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-85.836 495.781 425.375)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-82.36 496.99 394.284)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-79.67 477.93 372.69)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-76.974 498.71 341.173)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-73.567 497.875 305.637)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-70.143 502.122 265.126)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-66.651 503.968 220.904)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-63.935 480.992 185.284)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-61.244 506.902 143.195)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-57.86 505.82 88.7)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-54.464 511.48 26.502)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-51.013 514.035 -44.146)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-48.32 484.45 -107.936)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-45.65 518.565 -174.08)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-42.299 517.623 -270.476)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-38.917 526.071 -384.241)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-35.461 530.998 -521.715)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-32.75 490.503 -657.769)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-30.083 540.815 -796.405)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-26.697 542.506 -1023.872)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-23.26 560.423 -1318.801)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-19.78 576.582 -1724.963)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-17.061 508.833 -2180.543)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(-14.356 613.368 -2738.672)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(-10.959 640.147 -3884.522)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-7.549 737.7 -6059.746)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-4.091 958.202 -11977.198)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(-1.423 927.455 -36673.108)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(1.208 -1149.956 44700.118)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(4.549 83.112 12560.365)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(7.938 230.74 7576.728)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(11.419 306.597 5539.23)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(14.139 426.655 4703.643)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(16.844 362.397 4038.961)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(20.28 392.515 3509.148)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(23.65 396.955 3125.369)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(27.13 407.17 2832.652)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(29.867 451.24 2683.711)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(32.54 419.28 2500.812)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(35.922 429.444 2346.51)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(39.307 430.074 2212.4)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(42.753 434.101 2099.735)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(45.45 457.972 2047.85)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(48.09 439.143 1956.895)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(51.468 444.533 1881.86)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(54.856 444.443 1811.233)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(58.33 446.964 1748.977)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(61.05 462.188 1726.19)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(63.72 449.669 1664.131)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(67.112 453.654 1619.825)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(70.536 453.735 1574.05)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(74.034 455.445 1533.258)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(76.76 465.322 1523.531)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(79.451 457.612 1476.473)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(82.84 460.15 1446.07)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(86.22 459.956 1414.014)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(89.071 455.877 1395.067)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(92.296 466.01 1382.514)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="scale(-1) rotate(-85.06 -1467.335 502.95)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(98.327 463.234 1322.92)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(101.71 463.416 1297.883)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(105.231 464.525 1274.54)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(107.959 467.632 1273.24)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(110.662 465.948 1240.97)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(114.06 467.444 1222.773)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(117.475 467.838 1201.672)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(120.93 468.276 1183)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="scale(-1) rotate(-56.34 -2210.57 876.566)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(126.3 469.101 1155.325)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(129.692 470.176 1140.036)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(133.073 470.468 1121.961)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(136.521 470.907 1105.747)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="scale(-1) rotate(-40.78 -2979.044 1263.543)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(141.9 471.645 1081.14)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="scale(-1) rotate(-34.74 -3412.963 1509.014)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(148.65 472.825 1051.382)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(152.112 473.201 1036.517)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(154.824 470.213 1037.838)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(157.523 474.09 1013.65)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(160.9 474.58 1001.103)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(164.351 475.725 985.282)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="scale(-1) rotate(-12.18 -9101.019 4463.704)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="rotate(170.564 471.838 971.915)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+                <text data-name="Y" font-size="40" transform="rotate(173.246 477.204 949.06)">
+                  <tspan x="0" y="0">Y</tspan>
+                </text>
+                <text data-name="E" font-size="37" transform="rotate(176.606 477.239 937.008)">
+                  <tspan x="0" y="0">E</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(179.071 470.788 925.57)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text data-name="R" font-size="40" transform="rotate(-176.628 477.914 908.255)">
+                  <tspan x="0" y="0">R</tspan>
+                </text>
+                <text font-size="17" transform="scale(-1) rotate(6.09 17093.284 -8875.525)">
+                  <tspan x="0" y="0"></tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
