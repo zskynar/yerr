@@ -63,7 +63,7 @@ class Yerr extends Component {
     }
 
     render() {
-      const {name, file, credit, background} = this.props;
+      const {name, credit, background} = this.props;
   
       return (
         <div className="yerr grid-item" onClick={this.playAudio} ref={div => this.element = div}>

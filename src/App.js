@@ -54,7 +54,7 @@ const Social = () => (
 const Click = ({playing}) => {
     return (
       <div className="click-hint grid-item">
-          {playing ?  <img src={equalizer} /> : <span>Click to <br />Replay Yerr</span>}
+          {playing ?  <img src={equalizer} alt="equalizer"/> : <span>Click to <br />Replay Yerr</span>}
       </div>
     )
 }
