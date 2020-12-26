@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Howl, Howler} from 'howler';
+import {Howl} from 'howler';
 import { gsap } from "gsap";
 
 class Yerr extends Component {

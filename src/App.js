@@ -15,7 +15,6 @@ import {
 } from "react-share";
 
 const colorSchemes = ["black","dark", "blue"]
-const shareUrl = "http://yerr.gg";
 
 class Header extends Component {
   constructor(props) {
@@ -29,7 +28,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header grid" ref={div => this.element = div}>
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="Logo"/>
       </div>
     )
   }
