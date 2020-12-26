@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { gsap } from "gsap";
 
 import Yerr from './Yerr';
 import allYerrs from './People';
