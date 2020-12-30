@@ -11,6 +11,25 @@ import stav2 from './audio/stav-2.mp3';
 import stav3 from './audio/stav-3.mp3';
 import stav4 from './audio/stav-4.mp3';
 
+import zoe1 from './audio/zoe-1.mp3';
+
+import evon from './audio/evon-1.mp3';
+
+import jules1 from './audio/jules-1.mp3';
+import jules2 from './audio/jules-2.mp3';
+import jules3 from './audio/jules-3.mp3';
+import jules4 from './audio/jules-4.mp3';
+import jules5 from './audio/jules-5.mp3';
+import jules6 from './audio/jules-6.mp3';
+import jules7 from './audio/jules-7.mp3';
+
+import danks1 from './audio/danks-1.mp3';
+import danks2 from './audio/danks-2.mp3';
+import danks3 from './audio/danks-3.mp3';
+import danks4 from './audio/danks-4.mp3';
+
+import krusty1 from './audio/krusty-1.mp3';
+
 /* Import Backgrounds */
 
 import cdGreen from './images/cd-green.svg';
@@ -87,6 +106,85 @@ const People = [{
     "name": "Stern Yerr",
     "credit": "StavieClixx",
     "file": stav4,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Harry Pottyerr",
+    "credit": "H0bbitQueen",
+    "file": zoe1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "A yerrr",
+    "credit": "evonmichL",
+    "file": evon,
+    "background" : randomChoice(backgrounds)
+  }
+  ,
+  {
+    "name": "Yerr yerrr",
+    "credit": "PartyScientist",
+    "file": jules1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "YerrRRrr",
+    "credit": "PartyScientist",
+    "file": jules2,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerrrr Yerr",
+    "credit": "PartyScientist",
+    "file": jules3,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerr?",
+    "credit": "PartyScientist",
+    "file": jules4,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "YERR",
+    "credit": "PartyScientist",
+    "file": jules5,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "yer yer yerrr",
+    "credit": "PartyScientist",
+    "file": jules6,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerrrrr",
+    "credit": "PartyScientist",
+    "file": jules7,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "yerrrrrrrrrrrr",
+    "credit": "IHaveTheDanks",
+    "file": danks2,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Softest Yerr Ever",
+    "credit": "IHaveTheDanks",
+    "file": danks3,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "The Yerr Song",
+    "credit": "IHaveTheDanks",
+    "file": danks4,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerrrrr Yerr Yerr Yerrrr",
+    "credit": "KrustyBong",
+    "file": krusty1,
     "background" : randomChoice(backgrounds)
   }
 ]

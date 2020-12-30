@@ -16,6 +16,8 @@ import {
 
 const colorSchemes = ["black","dark", "blue"]
 
+const url = window.location.href
+
 class Header extends Component {
   constructor(props) {
     super(props)
@@ -45,11 +47,60 @@ const Social = () => (
   <div className="social">
       <h4>Share</h4>
       <div className="social-icons">
-        <FacebookShareButton><FacebookIcon size={32} round={true}/></FacebookShareButton>
-        <TwitterShareButton><TwitterIcon size={32} round={true}/></TwitterShareButton>
+        <FacebookShareButton url={url}><FacebookIcon size={32} round={true}/></FacebookShareButton>
+        <TwitterShareButton url={url}><TwitterIcon size={32} round={true}/></TwitterShareButton>
       </div>
   </div>
 )
+
+class PersonName extends Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    const {name} = this.props;
+
+    return (
+      <span className="name">{name}</span>
+    )
+  }
+}
+
+class ThankYou extends Component {
+  constructor(props) {
+    super(props)
+
+    // reference to the DOM node
+    this.element = null;
+  }
+
+  componentDidMount() {
+    const marquees = new Array(10).fill(null)
+
+    marquees.forEach(el => {    
+      this.element.parentNode.append(this.element.cloneNode(true));
+    })
+  }
+
+  render() {
+    let result = allYerrs.map(a => a.credit);
+    const uniqueYerrs = [...new Set(result)]
+    console.log(uniqueYerrs)
+  
+    return (
+      <section className="thank-you">
+        <h2>Thank you!</h2>
+        <div className="marquee-container">
+          <div class="marquee" ref={div => this.element = div}>
+          {
+            uniqueYerrs.map((yerr, i) => <PersonName key={i} name={yerr} />)
+          }
+        </div>
+        </div>
+      </section>
+    )
+  }
+}
 
 const Click = ({playing}) => {
     return (
@@ -107,25 +158,38 @@ class App extends Component {
     }    
   }
 
+  handleTouch = event => {
+    this.setState((prevState, props) => ({
+      ...prevState,
+
+      yerr: [...prevState.yerr, randomChoice(allYerrs, prevState.yerr[prevState.yerr.length - 1])],
+    }));
+  }
+
   render() {
     const {yerr} = this.state
     const hasYerrs = this.state.yerr.length
 
     return (
-      <div className={`page black`} onKeyPress={this.handleKeyPress} tabIndex="0">
-        <Header />
-        <div className="yerrs grid" ref={div => this.click = div}>
-          <div className="yerr grid-item">
-              <img className="yerr-image" src={placeholder} alt="placeholder"/>
+      <main>
+        <div className={`page black`} onTouchStart={this.handleTouch} onKeyPress={this.handleKeyPress} tabIndex="0">
+          <Header />
+          <div className="yerrs grid" ref={div => this.click = div}>
+            <div className="yerr grid-item">
+                <img className="yerr-image" src={placeholder} alt="placeholder"/>
+            </div>
+              {
+                yerr.map((yerr, i) => <Yerr key={i} {...yerr} lastYerr={(hasYerrs - 1) === i ? true : false} changeBackground={this.handleBackground} handler={this.handlePlaying} />)
+              }
+              {hasYerrs ? <Click {...this.state} /> : <div className="grid-item placeholder">Press Enter</div>}
           </div>
-            {
-              yerr.map((yerr, i) => <Yerr key={i} {...yerr} lastYerr={(hasYerrs - 1) === i ? true : false} changeBackground={this.handleBackground} handler={this.handlePlaying} />)
-            }
-            {hasYerrs ? <Click {...this.state} /> : <div class="grid-item placeholder">Press Enter</div>}
+          <UserHint />
+          <Social />
         </div>
-        <UserHint />
-        <Social />
-      </div>
+        <div className="thank-you-container">
+          <ThankYou />
+        </div>
+      </main>
     );
   }
 }
