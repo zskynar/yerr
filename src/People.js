@@ -30,6 +30,10 @@ import danks4 from './audio/danks-4.mp3';
 
 import krusty1 from './audio/krusty-1.mp3';
 
+import scoot1 from './audio/scoot-1.mp3';
+
+import farabeast1 from './audio/drfarabeast.mp3';
+
 /* Import Backgrounds */
 
 import cdGreen from './images/cd-green.svg';
@@ -164,6 +168,12 @@ const People = [{
     "background" : randomChoice(backgrounds)
   },
   {
+    "name": "Happy New Yerrrr",
+    "credit": "IHaveTheDanks",
+    "file": danks1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
     "name": "yerrrrrrrrrrrr",
     "credit": "IHaveTheDanks",
     "file": danks2,
@@ -185,6 +195,18 @@ const People = [{
     "name": "Yerrrrr Yerr Yerr Yerrrr",
     "credit": "KrustyBong",
     "file": krusty1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "yerrrrr",
+    "credit": "ScootMcGoo",
+    "file": scoot1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerrr",
+    "credit": "DrFarabeast",
+    "file": farabeast1,
     "background" : randomChoice(backgrounds)
   }
 ]

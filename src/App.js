@@ -54,10 +54,7 @@ const Social = () => (
 )
 
 class PersonName extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
+ render() {
     const {name} = this.props;
 
     return (
@@ -85,7 +82,6 @@ class ThankYou extends Component {
   render() {
     let result = allYerrs.map(a => a.credit);
     const uniqueYerrs = [...new Set(result)]
-    console.log(uniqueYerrs)
   
     return (
       <section className="thank-you">
@@ -107,6 +103,18 @@ const Click = ({playing}) => {
       <div className="click-hint grid-item">
           {playing ?  <img src={equalizer} alt="equalizer"/> : <span>Click to <br />Replay Yerr</span>}
       </div>
+    )
+}
+
+const Footer = () => {
+    return (
+      <footer>
+        <div className="submit">
+          <h3>Want to submit a yerr?</h3>
+          <p>Please DM Lambo from <a href="https://discord.gg/WumazTaMKr" target="_blank">The Crowd</a> or the <a href="https://discord.gg/3FXp5GfEBA" target="_blank">Shell Squad</a> discords :)</p>
+        </div>
+        <div className="design">This website was designed and built by <a href="https://zackskynar.com">Zack Skynar</a>.</div>
+      </footer>
     )
 }
 
@@ -159,11 +167,13 @@ class App extends Component {
   }
 
   handleTouch = event => {
-    this.setState((prevState, props) => ({
-      ...prevState,
+    if (!this.state.playing ) {
+      this.setState((prevState, props) => ({
+        ...prevState,
 
-      yerr: [...prevState.yerr, randomChoice(allYerrs, prevState.yerr[prevState.yerr.length - 1])],
-    }));
+        yerr: [...prevState.yerr, randomChoice(allYerrs, prevState.yerr[prevState.yerr.length - 1])],
+      }));
+    }
   }
 
   render() {
@@ -189,6 +199,7 @@ class App extends Component {
         <div className="thank-you-container">
           <ThankYou />
         </div>
+        <Footer />
       </main>
     );
   }

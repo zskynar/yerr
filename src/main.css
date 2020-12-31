@@ -266,18 +266,29 @@ h3 {
   opacity: 1;
   transform: scale(1) rotate(0deg);
 }
-/* 
-.loaded:nth-of-type(2n) {
-  transform: scale(1) rotate(5deg);
-}
+@media (max-width: 760px) {
+  .yerr-info {
+    top: 15vw;
+    height: 83vw;
+  }
 
-.loaded:nth-of-type(3n) {
-  transform: scale(1) rotate(-5deg);
-}
+  .yerr-title { padding: 20px 17vw; }
 
-.loaded:nth-of-type(4n) {
-  transform: scale(1) rotate(7deg);
-} */
+  h2 { font-size: 5vmin;}
+
+  .yerr-credit {
+    padding: 20px 17vw;
+  }
+
+  .credits {
+    margin: 0 0 5px;
+    font-size: 9px;
+  }
+
+  h3 {
+    font-size: 13px;
+  }
+}
 
 @media (max-width: 480px) {
   .user-hint,
@@ -333,6 +344,25 @@ h3 {
   fill: var(--primary);
 }
 
+@media screen and (max-width: 600px) {
+  .social {
+    position: absolute;
+    right: 15px;
+    bottom: 35px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .social h4 {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transform: rotate(-90deg);
+    margin-top: 20px;
+  }
+}
+
+
 .thank-you-container {
   overflow: hidden;
   padding: 75px 0;
@@ -378,9 +408,19 @@ h3 {
 
 .marquee span {
   color: var(--background);
+  position: relative;
   display: inline-block;
-  padding: 0 25px;
 }
+
+.marquee span:after {
+  content: "-";
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  padding: 0 25px;
+  opacity: 0.75;
+}
+
 
 .marquee a {
 	text-decoration: none;
@@ -406,5 +446,65 @@ h3 {
 
   .marquee  {
     font-size: 32px;
+  }
+}
+
+footer {
+  padding: 150px 35px 25px;
+}
+
+.submit {
+  max-width: 1000px;
+  margin: 0 auto 150px;
+  text-align: center;
+}
+
+.submit h3 {
+  font-size: 40px;
+  margin: 0 0 35px;
+}
+
+.submit p {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: normal;
+}
+
+footer a {
+  color: var(--primary);
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+.design {
+  text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 100px 35px 25px;
+  }
+
+  .submit {
+    max-width: 1000px;
+    margin: 0 auto 100px;
+    text-align: center;
+  }
+
+  .submit h3 {
+    font-size: 28px;
+    margin: 0 0 35px;
+  }
+  
+  .submit p {
+    font-size: 14px;
+    font-weight: normal;
   }
 }
