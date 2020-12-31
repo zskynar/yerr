@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './fonts/stylesheet.css';
+import 'react-rangeslider/lib/index.css'
 import './main.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

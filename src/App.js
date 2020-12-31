@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
+import { Howler } from 'howler';
 
 import Yerr from './Yerr';
+import Volume from './Volume'
 import allYerrs from './People';
 
 import logo from './images/logo.svg';
 import placeholder from './images/placeholder.svg';
 import equalizer from './images/equalizer.svg';
+
 
 import {
   FacebookShareButton,
@@ -13,6 +16,7 @@ import {
   FacebookIcon,
   TwitterIcon
 } from "react-share";
+
 
 const colorSchemes = ["black","dark", "blue"]
 
@@ -36,9 +40,9 @@ class Header extends Component {
   }
 }
 
-const UserHint = ({loading, hintText}) => (
+const UserHint = ({playing}) => (
   <div className="user-hint">
-      Hit <span className="color">enter</span> to get a new yerr!
+      Hit <span className="color">enter</span> {playing ? 'to stop current yerr!' : 'to get a new yerr!'}
       <span className="small">(Audio on for best experience)</span>
   </div>
 )
@@ -87,7 +91,7 @@ class ThankYou extends Component {
       <section className="thank-you">
         <h2>Thank you!</h2>
         <div className="marquee-container">
-          <div class="marquee" ref={div => this.element = div}>
+          <div className="marquee" ref={div => this.element = div}>
           {
             uniqueYerrs.map((yerr, i) => <PersonName key={i} name={yerr} />)
           }
@@ -125,7 +129,6 @@ const randomChoice = (arr, dontInclude) => {
 }
 
 class App extends Component {
-
   constructor(props) {
     super(props)
     this.state = {
@@ -163,7 +166,14 @@ class App extends Component {
 
         yerr: [...prevState.yerr, randomChoice(allYerrs, prevState.yerr[prevState.yerr.length - 1])],
       }));
-    }    
+    } else if (event.key === 'Enter' && this.state.playing) {
+      Howler.stop()
+      this.setState((prevState, props) => ({
+          ...prevState,
+
+          playing: !prevState.playing
+      }));
+    }
   }
 
   handleTouch = event => {
@@ -189,12 +199,13 @@ class App extends Component {
                 <img className="yerr-image" src={placeholder} alt="placeholder"/>
             </div>
               {
-                yerr.map((yerr, i) => <Yerr key={i} {...yerr} lastYerr={(hasYerrs - 1) === i ? true : false} changeBackground={this.handleBackground} handler={this.handlePlaying} />)
+                yerr.map((yerr, i) => <Yerr key={i} {...yerr} lastYerr={(hasYerrs - 1) === i ? true : false} changeBackground={this.handleBackground} handler={this.handlePlaying} playing={this.state.playing} />)
               }
               {hasYerrs ? <Click {...this.state} /> : <div className="grid-item placeholder">Press Enter</div>}
           </div>
-          <UserHint />
+          <UserHint playing={this.state.playing} />
           <Social />
+          <Volume />
         </div>
         <div className="thank-you-container">
           <ThankYou />

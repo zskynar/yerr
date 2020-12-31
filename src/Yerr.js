@@ -18,6 +18,7 @@ class Yerr extends Component {
         this.element = null;
         // reference to the animation
         this.timeline = null;
+        this.sound = null;
     }
 
     togglePlaying() {
@@ -30,7 +31,7 @@ class Yerr extends Component {
         const $this = this
         const {file, handler, changeBackground} = this.props;
 
-        var sound = new Howl({
+        this.sound = new Howl({
             src: [file],
             onplay: function() {
                 $this.togglePlaying()
@@ -44,7 +45,7 @@ class Yerr extends Component {
         });
     
         if (!this.state.playing) {
-            sound.play()
+            this.sound.play()
         }
     }
 
