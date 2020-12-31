@@ -111,7 +111,7 @@ const Footer = () => {
       <footer>
         <div className="submit">
           <h3>Want to submit a yerr?</h3>
-          <p>Please DM Lambo from <a href="https://discord.gg/WumazTaMKr" target="_blank">The Crowd</a> or the <a href="https://discord.gg/3FXp5GfEBA" target="_blank">Shell Squad</a> discords :)</p>
+          <p>Please DM Lambo from <a href="https://discord.gg/WumazTaMKr" target="_blank" rel="noreferrer">The Crowd</a> or the <a href="https://discord.gg/3FXp5GfEBA" target="_blank" rel="noreferrer">Shell Squad</a> discords :)</p>
         </div>
         <div className="design">This website was designed and built by <a href="https://zackskynar.com">Zack Skynar</a>.</div>
       </footer>
