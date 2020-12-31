@@ -1,3 +1,5 @@
+/* autoprefixer grid: autoplace */
+
 :root {
   --background: #022A2E;
   --primary: #61EC6E;
@@ -95,7 +97,7 @@ button {
 
 .yerrs {
   padding: 5vh 0;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .grid {
@@ -550,4 +552,9 @@ footer a:focus {
   width: 20px;
     margin-top: 7px;
     opacity: 0.2;
+}
+
+
+@media screen and (max-width: 600px) {
+  .volume {display: none;}
 }
