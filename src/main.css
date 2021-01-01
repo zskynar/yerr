@@ -281,7 +281,8 @@ h3 {
   }
 
   .yerr.grid-item {
-    padding-top: 100%
+    padding-top: 100%;
+    height: auto;
   }
 
   .yerr-title { padding: 20px 17vw; }
