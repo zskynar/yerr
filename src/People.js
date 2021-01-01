@@ -10,10 +10,13 @@ import stav1 from './audio/stav-1.mp3';
 import stav2 from './audio/stav-2.mp3';
 import stav3 from './audio/stav-3.mp3';
 import stav4 from './audio/stav-4.mp3';
+import stav5 from './audio/stav-5.mp3';
 
 import zoe1 from './audio/zoe-1.mp3';
 
 import evon from './audio/evon-1.mp3';
+
+import swift1 from './audio/papaswift-1.mp3';
 
 import jules1 from './audio/jules-1.mp3';
 import jules2 from './audio/jules-2.mp3';
@@ -22,6 +25,7 @@ import jules4 from './audio/jules-4.mp3';
 import jules5 from './audio/jules-5.mp3';
 import jules6 from './audio/jules-6.mp3';
 import jules7 from './audio/jules-7.mp3';
+import jules8 from './audio/jules-7.mp3';
 
 import danks1 from './audio/danks-1.mp3';
 import danks2 from './audio/danks-2.mp3';
@@ -113,6 +117,12 @@ const People = [{
     "background" : randomChoice(backgrounds)
   },
   {
+    "name": "And I dont want to miss a yerr.",
+    "credit": "StavieClixx",
+    "file": stav5,
+    "background" : randomChoice(backgrounds)
+  },
+  {
     "name": "Harry Pottyerr",
     "credit": "H0bbitQueen",
     "file": zoe1,
@@ -168,6 +178,12 @@ const People = [{
     "background" : randomChoice(backgrounds)
   },
   {
+    "name": "Yerr The Night",
+    "credit": "PartyScientist",
+    "file": jules8,
+    "background" : randomChoice(backgrounds)
+  },
+  {
     "name": "Happy New Yerrrr",
     "credit": "IHaveTheDanks",
     "file": danks1,
@@ -207,6 +223,12 @@ const People = [{
     "name": "Yerrr",
     "credit": "DrFarabeast",
     "file": farabeast1,
+    "background" : randomChoice(backgrounds)
+  },
+  {
+    "name": "Yerr Beautiful",
+    "credit": "Papa Swift",
+    "file": swift1,
     "background" : randomChoice(backgrounds)
   }
 ]

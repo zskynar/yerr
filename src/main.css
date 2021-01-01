@@ -38,6 +38,7 @@ button {
 }
 
 .page {
+  position: relative;
   height: 100vh;
   padding: 5vh 2rem;
   display: flex;
@@ -275,9 +276,12 @@ h3 {
   transform: scale(1) rotate(0deg);
 }
 @media (max-width: 760px) {
-  .yerr-info {
-    top: 15vw;
-    height: 83vw;
+  .page {
+    height: auto;
+  }
+
+  .yerr.grid-item {
+    padding-top: 100%
   }
 
   .yerr-title { padding: 20px 17vw; }
@@ -556,5 +560,6 @@ footer a:focus {
 
 
 @media screen and (max-width: 600px) {
-  .volume {display: none;}
+  .volume, .social {display: none;}
+  
 }
