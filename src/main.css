@@ -318,6 +318,19 @@ h3 {
   }
 }
 
+@media (max-width: 400px) {
+  h2 { font-size: 4vmin;}
+
+  .credits {
+    margin: 0 0 5px;
+    font-size: 7px;
+  }
+
+  h3 {
+    font-size: 11px;
+  }
+}
+
 .social {
   position: absolute;
   right: 35px;
